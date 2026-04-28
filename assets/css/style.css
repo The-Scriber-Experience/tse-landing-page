@@ -81,10 +81,11 @@
 .sidebar {
     grid-row: 2 / 4;
     grid-column: 1 / 2;
-    padding: 1rem;
+    padding: 1rem 0.25rem;
     background-image: linear-gradient(160deg, #120548 0%, #2378a3 127%);
     background-size: cover;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .content-1 {

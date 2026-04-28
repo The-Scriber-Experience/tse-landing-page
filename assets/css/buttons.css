@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Eagle+Lake&family=MedievalSharp&family=Philosopher&family=UnifrakturMaguntia&display=swap');
 
 .buttons {
-  margin: 10%;
+  margin: 10% auto;
   text-align: center;
 }
 
@@ -34,6 +34,17 @@
 
 .btn-hover:focus {
   outline: none;
+}
+
+.btn-hover a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+}
+
+.btn-hover a:hover {
+  color: #f0f0f0;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
 .btn-hover.color-1 {
