@@ -310,7 +310,7 @@ body {
 /* Buttons and links */
 .buttons a,
 .buttons p {
-    font-size: clamp(0.85rem, 1vw, 1rem);
+    font-size: clamp(0.5rem, 0.75vw, 0.75rem);
     line-height: 1.2;
     white-space: nowrap;
     color: inherit;
