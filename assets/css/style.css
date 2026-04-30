@@ -37,7 +37,7 @@
     width: min(1000px, 100%);
     min-height: 800px;
     grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 100px 1fr auto 100px;
+    grid-template-rows: 100px 1fr auto auto 100px;
     gap: 0.5rem;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -188,6 +188,16 @@
     background: rgba(0, 0, 0, 0.4) !important;
 }
 
+@media (max-width: 768px) {
+    .donations-links {
+        gap: 1rem;
+    }
+    .donation-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 .donations-content {
     display: flex;
     flex-direction: column;
@@ -217,7 +227,7 @@
 }
 
 .donations-quote {
-    font-size: clamp(0.85rem, 1.2vw, 1.1rem);
+    font-size: clamp(0.65rem, 0.8vw, 0.9rem);
     font-style: italic;
     color: var(--color-text);
     text-align: center;
