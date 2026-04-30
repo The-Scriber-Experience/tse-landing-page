@@ -1,5 +1,5 @@
 # 🍋 DLive DDay
-https://the-scriber-experience.github.io/stream-links/
+https://the-scriber-experience.github.io/tse-landing-page/
 
 ## Quickstart
 ```bash
