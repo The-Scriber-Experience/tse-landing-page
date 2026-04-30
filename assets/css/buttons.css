@@ -37,14 +37,15 @@
 }
 
 .btn-hover a {
-  color: rgb(212 195 255);
+  color: whitesmoke;
+  text-shadow: 0 0 5px rgb(79 21 238);
   text-decoration: none;
   transition: color .3s ease-in-out;
 }
 
 .btn-hover a:hover {
-  color: #f0f0f0;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  color: whitesmoke;
+  text-shadow: 0 0 5px rgb(0 166 255 / 0.75);
 }
 
 .btn-hover.color-1 {
