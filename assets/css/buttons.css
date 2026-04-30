@@ -69,11 +69,11 @@
   box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
 }
 .btn-hover.color-6 {
-  background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+  background-image: linear-gradient(to right, #009245, #3f86ed, #8E37D7, #fa7199);
   box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
 }
 .btn-hover.color-7 {
-  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #fc6076);
   box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 .btn-hover.color-8 {

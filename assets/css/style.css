@@ -176,8 +176,94 @@
     justify-content: center;
 }
 
-.footer {
+/* Donations Section */
+.donations-section {
     grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--glass-border);
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.donations-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.donations-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.donations-scroll-img {
+    height: 50px;
+    width: auto;
+    filter: drop-shadow(0 0 10px rgba(121, 82, 245, 0.5));
+    transition: transform 0.3s ease;
+}
+
+.donations-scroll-img:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.donations-quote {
+    font-size: clamp(0.85rem, 1.2vw, 1.1rem);
+    font-style: italic;
+    color: var(--color-text);
+    text-align: center;
+    opacity: 0.9;
+    max-width: 400px;
+    line-height: 1.4;
+}
+
+.donations-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.donation-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.donation-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.donation-link.cashapp:hover {
+    color: #00D632; /* Cash App Green */
+}
+
+.donation-link.bmac:hover {
+    color: #FFDD00; /* BMAC Yellow */
+}
+
+.footer {
+    grid-row: 5 / 6;
     grid-column: 1 / 4;
     background: rgba(0, 0, 0, 0.7) !important;
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
@@ -574,7 +660,11 @@ body {
 }
 
 .content-creation-header {
-  background-image: linear-gradient(135deg, #06b6d4, #10b981, #facc15);
+  background-image: linear-gradient(135deg, #3a59b9, #06b6d4, #10b981);
+}
+
+.merch-store-header {
+  background-image: linear-gradient(135deg, #facc15, #30d30e, #00f2ff);
 }
 
 /* Light highlight for sidebar headers */
